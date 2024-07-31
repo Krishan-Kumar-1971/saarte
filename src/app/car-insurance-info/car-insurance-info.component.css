@@ -1,0 +1,41 @@
+h2 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.container {
+  margin: 20px auto;
+  max-width: 800px;
+
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.col {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.order-first {
+  order: -1;
+}
+
+.order-last {
+  order: 1;
+}
+
+p {
+  text-align: justify;
+}

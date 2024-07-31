@@ -1,0 +1,11 @@
+<h2 class="container"> Motor Insurance </h2>
+<div class="container">
+  <div class="row" *ngFor="let item of items; let i = index">
+    <div class="col" [class.order-last]="i % 2 === 1">
+      <img [src]="item.image" alt="Car Image" class="img-fluid">
+    </div>
+    <div class="col" [class.order-first]="i % 2 === 1">
+      <p>{{ item.text }}</p>
+    </div>
+  </div>
+</div>

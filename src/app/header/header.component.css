@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #bdd6f0;
+}
+
+.logo img {
+  height: 80px;
+  width: 100px;
+}
+
+.name {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+}
+
